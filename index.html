@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <title>Youtube Clone</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="left-section">
+                <div>
+                    <button class="hamburger-menu-button">
+                        <img class="hamburger-menu-icon" src="icons\hamburger-menu.svg" alt="img">
+                    </button>
+                </div>
+                <a href="https://www.youtube.com">
+                    <img class="youtube-logo" src="icons\youtube-logo.svg" alt="">
+                </a>
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src=" icons\search.svg" alt="">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src=" icons\voice-search-icon.svg" alt="">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <button class="upload-button">
+                    <img class="upload-icon" src="icons\upload.svg" alt="img">
+                    <div class="tooltip">Upload</div>
+                </button>
+                <button class="notifications-button">
+                    <img class="notifications-icon" src="icons\notifications.svg" alt="img">
+                    <div class="notification-number">9+</div>
+                    <div class="tooltip">Notifications</div>
+                </button>
+                <a class="google-profile-button" href="https://www.google.com">
+                    <img class="google-profile" src="dog-picture.jpg" alt="img">
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="sidebar"> 
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons\home.svg" alt="">
+            <span class="sidebar-label">Home</span>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons\explore.svg" alt="">
+            <span class="sidebar-label">Explore</span>
+        </div>  
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons\subscriptions.svg" alt="">
+            <span class="sidebar-label">Subscriptions</span>
+        </div>  
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons\originals.svg" alt="">
+            <span class="sidebar-label">Originals</span>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons\library.svg" alt="">
+            <span class="sidebar-label">Library</span>
+        </div>   
+    </div>
+
+    <main>
+        <div class="video-grid">
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=STlxkUgQG50">
+                        <img class="thumbnail" src="thumbnails\thumbnail-1.webp" alt="thumbnail-preview">
+                    </a>
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="profile-pic\profile-pic-1.jpg" alt="img">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">IShowSpeed Finds RONALDO In Qatar</p>
+                        <p class="video-author">IShowSpeed &#10003;</p>
+                        <p class="video-stats">1.7M views &#183; 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=oJSdnwbFLVo">
+                        <img class="thumbnail" src="thumbnails\thumbnail-2.webp" alt="thumbnail-preview">
+                    </a>
+                    <div class="video-time">23:09</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="profile-pic\profile-pic-2.jpg" alt="img">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">5 NOOBS VS 2 PROS What will be the Outcome? | SEN TenZ</p>
+                        <p class="video-author">SEN TenZ &#10003;</p>
+                        <p class="video-stats">3.1M views &#183; 1 month ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=JEQD1US7Xj8">
+                        <img class="thumbnail" src="thumbnails\thumbnail-3.webp" alt="thumbnail-preview">
+                    </a>
+                    <div class="video-time">10:08</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="profile-pic\profile-pic-3.jpg" alt="img">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">SIDEMEN REACT TO "CHRISTMAS DRILLINGS (OFFICIAL VIDEO)"</p>
+                        <p class="video-author">SidemenReacts &#10003;</p>
+                        <p class="video-stats">1.8M views &#183; 3 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=pFvWwFua6mw">
+                        <img class="thumbnail" src="thumbnails\thumbnail-4.webp" alt="thumbnail-preview">
+                    </a>
+                    <div class="video-time">43:23</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="profile-pic\profile-pic-4.jpg" alt="img">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Creating a Weather App Using HTML CSS and JavaScript🔥</p>
+                        <p class="video-author">CodeWithHarry &#10003;</p>
+                        <p class="video-stats">48K views &#183; 3 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=1yXTUQZALFE">
+                        <img class="thumbnail" src="thumbnails\thumbnail-5.webp" alt="thumbnail-preview">
+                    </a>
+                    <div class="video-time">1:23:16</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="profile-pic\profile-pic-5.jpg" alt="img">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">SIDEMEN $100,000 VS $100 CHRISTMAS SONG</p>
+                        <p class="video-author">Sidemen &#10003;</p>
+                        <p class="video-stats">6.7M views &#183; 5 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=Hl9iVr3ZXR8">
+                        <img class="thumbnail" src="thumbnails\thumbnail-6.webp" alt="thumbnail-preview">
+                    </a>
+                    <div class="video-time">45:39</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="profile-pic\profile-pic-6.jpg" alt="img">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">GUESS THE FOOTBALLER Ft Trent Alexander-Arnold</p>
+                        <p class="video-author">Beta Squad &#10003;</p>
+                        <p class="video-stats">6.5M views &#183; 6 days ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
